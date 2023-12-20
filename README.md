@@ -17,3 +17,5 @@ In order to get this to work we have to do some things on your chromebook
      - git clone https://github.com/posisme/jtermcvcs.git
      - cd jtermcvcs
      - node server.js
+
+Now your server is running. In Chrome go to http://penguin.linux.test:3000 and you'll see something pop up.
