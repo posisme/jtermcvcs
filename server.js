@@ -10,16 +10,18 @@ app.set("views",path.join(__dirname,"views"))
 app.use(express.static(path.join(__dirname,"public")))
 
 app.get("*",function (req, res) {
-  fs.readFile('./views/pages' + req.originalUrl+".ejs",(err,data)=>{
-  if(!err){
-    res.render('pages' + req.originalUrl)
-  }
-  else{
-    res.status(404);
-    res.render('pages/404')
-  }
-})
-}
+  fs.readFile('./views/pages' + req.originalUrl+".ejs",
+	function(err,data){
+  		if(!err){
+    			res.render('pages' + req.originalUrl)
+  		}
+  		else{
+    			res.status(404);
+    			res.render('pages/404')
+  		}
+	}
+  )
+});
 
 
 
