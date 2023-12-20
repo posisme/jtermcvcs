@@ -16,6 +16,7 @@ In order to get this to work we have to do some things on your chromebook
 6. In your Terminal run the following commands
      - git clone https://github.com/posisme/jtermcvcs.git
      - cd jtermcvcs
+     - git checkout student/yourname (but put in your first and last name)
      - nohup node server.js &
 7. In your Chromebook settings search for Linux port forwarding. Add port 3000 TCP.
 
