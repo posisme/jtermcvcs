@@ -23,5 +23,5 @@ Now your server is running. In Chrome go to http://penguin.linux.test:3000 and y
 
 If you go to your Wifi connection and hover over the i icon you can see you IP address
 
-Anyone else on the school network can get to your site by going to http://<IPADDRESS>:3000 where <IPADDRESS> is your IP address.
+Anyone else on the school network can get to your site by going to http://IPADDRESS:3000 where IPADDRESS is your IP address.
 
