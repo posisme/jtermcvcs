@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+const PORT = XXX;
 const express = require("express");
 const app = express();
 const path = require('path');
@@ -31,6 +31,6 @@ app.get("*",function (req, res) {
 
 //for hosting on my machine
 
-app.listen(3000, () => {
-console.log('running on port 3000 for dev...');
+app.listen(PORT, () => {
+console.log('running on port ' + PORT + ' for dev...');
 });
